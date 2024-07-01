@@ -1,0 +1,7 @@
+* Trabalho final de IA
+
+Infelizmente não podemos colocar os arquivos do dataset no github (por causa do tamanho dos arquivos). Logo, para usar a ferramenta, baixe os [[https://www.kaggle.com/datasets/mateusdmachado/csgo-professional-matches][arquivos do dataset]] para o diretório chamado ~data~, e depois rode:
+#+begin_src shell
+nix develop # para trazer todas as dependências para o environment
+cargo run --help
+#+end_src
